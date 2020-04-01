@@ -5,15 +5,31 @@ body {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #333399, #ff00cc);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Baloo 2', 'cursive';
+    color: white;
 
 }
 
+.Mynavigation {
+    float: right;
+}
 
-img {
-    border-radius: 8px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    
+.Mynavigation a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.about {
+    float: left;
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.portfolio {
+    float: left;
 }
