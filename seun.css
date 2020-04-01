@@ -5,7 +5,10 @@
 body {
     font-family: 'Baloo 2', 'cursive';
     color: white;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    /* margin: auto; */
 
     background: #ff00cc;
     /* fallback for old browsers */
@@ -15,7 +18,7 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.header {
+/* .header {
     padding: 5px;
     text-align: center;
     background: #1abc9c;
@@ -26,9 +29,9 @@ body {
 .Mynavigation {
     display: flex;
     justify-content: flex-end;    
-}
+} */
 
-.Mynavigation a {
+/* .Mynavigation a {
     display: flex;
     justify-content: flex-end;
     color: #f2f2f2;
@@ -36,39 +39,30 @@ body {
     margin: 10px 10px;
     text-decoration: none;
     font-size: 20px;
-}
-
-/* Container for Column */
-.content {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-/* .flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-around;
-    color: #f2f2f2;
-    font-size: 20px;
-}
-
-.flex-container a {
-    color: white;
-    font-size: 15px;
 } */
 
-/* About me column */
+
+
+/* About Me */
 .about {
-    flex: 30%;
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
     background-color: brown;
     padding: 20px;
-    
 }
 
-/* main column */
+/* Portfolio */
 .portfolio {
-    flex: 70%;
-    padding: 20px;
+    display: flex;
+    margin: 10px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: darkgreen;
+}
+
+.portfolioContent {
+    flex: 1;
 }
