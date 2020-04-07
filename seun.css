@@ -18,11 +18,11 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.header {
+/* .header {
     padding: 5px;
     text-align: center;
     
-}
+} */
 
 
 .Mynavigation {
@@ -50,7 +50,7 @@ body {
     text-align: center;
     /* background-color: brown; */
     padding: 20px;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 p.about {
