@@ -120,3 +120,15 @@ p.portfolioContent {
     justify-content: center;
     text-align: center;
 }
+
+.footer {
+    position: bottom;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.footer a {
+    color: white;
+}
